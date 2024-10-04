@@ -5,4 +5,4 @@ gemspec
 gem "codeclimate-test-reporter"
 gem "combustion"
 gem "pg"
-gem "rspec-rails"
+gem "rspec-rails", "~> 4.1.0"
