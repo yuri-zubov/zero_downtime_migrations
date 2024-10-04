@@ -1,6 +1,6 @@
 module ZeroDowntimeMigrations
   module Data
-    def initialize(*)
+    def initialize(*, **kwargs)
       Migration.data = true
       super
     end
